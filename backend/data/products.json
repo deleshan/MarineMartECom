@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Apple AirPods (2nd Generation)",
+    "price": 99,
+    "description": "Apple AirPods (2nd Generation) Wireless Ear Buds, Bluetooth Headphones with Lightning Charging Case Included, Over 24 Hours of Battery Life, Effortless Setup for iPhone ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/airpod 2nd gen apple 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/airpod 2nd gen apple 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/airpod 2nd gen apple 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/airpod 2nd gen apple 4.jpg"
+      }
+    ],
+    "category": "Headphones",
+    "seller": "Apple",
+    "stock": 45,
+    "numOfReviews": 0,
+    "reviews": []
+  },
+  {
+    "name": "Apple iPad (9th Generation)",
+    "price": 219,
+    "description": "Apple iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP front/8MP Back Camera, Touch ID, All-Day Battery Life – Space Gray ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple ipad 9th 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple ipad 9th 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple ipad 9th 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple ipad 9th 3.jpg"
+      }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Apple",
+    "stock": 10,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "SAMSUNG 15.6\" Galaxy Book3 Business Laptop Computer",
+    "price": 649,
+    "description": "SAMSUNG 15.6\" Galaxy Book3 Business Laptop Computer/Windows 11 PRO/16GB - 256GB/ 13th Gen Intel® Core™ i5 processor, 2023 Model, NP754XFG-KB3US, Silver",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung 15 galaxy laptop 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung 15 galaxy laptop 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung 15 galaxy laptop 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung 15 galaxy laptop 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung 15 galaxy laptop 5.jpg"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "Sumsung",
+    "stock": 4,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "SAMSUNG 32\" Odyssey G55A QHD Gaming Monitor",
+    "price": 279,
+    "description": "SAMSUNG 32\" Odyssey G55A QHD 165Hz 1ms FreeSync Curved Gaming Monitor with HDR 10, Futuristic Design for Any Desktop, LS32AG550ENXZA ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung monitor odysssey 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung monitor odysssey 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung monitor odysssey 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung monitor odysssey 3.jpg"
+      }
+    ],
+    "category": "computer",
+    "seller": "Sumsung",
+    "stock": 5,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "HP Newest Pavilion 15.6\" HD Touchscreen Anti-Glare Laptop",
+    "price": 440,
+    "description": "HP Newest Pavilion 15.6\" HD Touchscreen Anti-Glare Laptop, 16GB RAM, 1TB SSD Storage, Intel Core Processor up to 4.1GHz, Up to 11 Hours Long Battery Life, Type-C, HDMI, Windows 11 Home, Silver ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/HP Newest Pavilion Laptop 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/HP Newest Pavilion Laptop 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/HP Newest Pavilion Laptop 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/HP Newest Pavilion Laptop 2.jpg"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "HP",
+    "stock": 6,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Apple 2023 15\" MacBook Air M2",
+    "price": 1668,
+    "description": "Apple 2023 15\" MacBook Air M2, 16GB RAM, 512GB Storage - Midnight (Z18T000PP) ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 15 MacBook Air M2 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 15 MacBook Air M2 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 15 MacBook Air M2 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 15 MacBook Air M2 4.jpg"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "Apple",
+    "stock": 7,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Apple 2023 MacBook Pro Laptop M2 Pro",
+    "price": 2299.98,
+    "description": "Apple 2023 MacBook Pro Laptop M2 Pro chip with 12‑core CPU and 19‑core GPU: 16.2-inch Liquid Retina XDR Display, 16GB Unified Memory, 512GB SSD Storage. Works with iPhone/iPad; Silver ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 MacBook Pro 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 MacBook Pro 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 MacBook Pro 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Apple 2023 MacBook Pro 3.jpg"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "Apple",
+    "stock": 4,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Apple 2023 Mac Mini Desktop Computer M2",
+    "price": 459.08,
+    "description": "Apple 2023 Mac Mini Desktop Computer M2 chip with 8‑core CPU and 10‑core GPU, 8GB Unified Memory, 256GB SSD Storage, Gigabit Ethernet. Works with iPhone/iPad ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/mac mini m2 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/mac mini m2 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/mac mini m2 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/mac mini m2 4.jpg"
+      }
+    ],
+    "category": "computer",
+    "seller": "Apple",
+    "stock": 4,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Apple iMac 27\" with Retina 5K Display",
+    "price": 1799,
+    "description": "Apple iMac 27\" with Retina 5K Display, 3.3Ghz 6-Core Intel i5, 8GB RAM, 512GB SSD, AMD Radeon Pro 5300 4GB, Mid 2020 ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple imac 27 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple imac 27 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple imac 27 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/apple imac 27 3.jpg"
+      }
+    ],
+    "category": "computer",
+    "seller": "Apple",
+    "stock": 6,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Salomon Men's Shoes",
+    "price": 100,
+    "description": "Salomon Men's Speedcross 5 Trail Running Shoes ,Contagrip TA: Built for maximum grip on loose, soft, rugged, and uneven surfaces, Contagrip TA uses deep, sharp lugs made from a compound that balances durability and adhesion.",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/salomen shoes 1.jpg"
+      }
+    ],
+    "category": "clothes/shoes",
+    "seller": "Salomen",
+    "stock": 20,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Litfun Women's FuzzySlippers",
+    "price": 25.98,
+    "description": "Litfun Women's Fuzzy Memory Foam Slippers Fluffy Winter House Shoes Indoor and Outdoor",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/litfun slippers 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/litfun slippers 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/litfun slippers 3.jpg"
+      }
+    ],
+    "category": "clothes/shoes",
+    "seller": "litfun",
+    "stock": 14,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Montana West 3PCS Purses",
+    "price": 39,
+    "description": "Montana West 3PCS Purses for Women Tote Purse and Wallet Set Shoulder Satchel Bags ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Montana 3pcs purses 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Montana 3pcs purses 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Montana 3pcs purses 3.jpg"
+      }
+    ],
+    "category": "clothes/shoes",
+    "seller": "Montana",
+    "stock": 12,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Large Crossbody Bags",
+    "price": 41,
+    "description": "Large Crossbody Bags Ladies Shoulder Handbags Purse and Wallet Set for Women Totes Hobo Purses",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Large Crossbody Bags 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Large Crossbody Bags 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Large Crossbody Bags 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Large Crossbody Bags 4.jpg"
+      }
+    ],
+    "category": "clothes/shoes",
+    "seller": "Idesort",
+    "stock": 15,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Travelon Anti-Theft Heritage Crossbody Bag",
+    "price": 38,
+    "description": "Travelon Anti-Theft Heritage Crossbody Bag",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Heritage Crossbody Bag 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Heritage Crossbody Bag 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Heritage Crossbody Bag 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Heritage Crossbody Bag 2.jpg"
+      }
+    ],
+    "category": "clothes/shoes",
+    "seller": "Travelon",
+    "stock": 17,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "SAMSUNG Galaxy S24",
+    "price": 759,
+    "description": "SAMSUNG Galaxy S24 Cell Phone, 256GB AI Smartphone, Unlocked Android, 50MP Camera, Fastest Processor, Long Battery Life, US Version, 2024, Cobalt Violet ",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung galaxy s24 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung galaxy s24 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung galaxy s24 4.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/sumsung galaxy s24 3.jpg"
+      }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Sumsung",
+    "stock": 8,
+    "numOfReviews": 0,
+
+    "reviews": []
+  },
+  {
+    "name": "Samsung Galaxy S20 FE 5G (128GB, 6GB)",
+    "price": 309,
+    "description": "Samsung Galaxy S20 FE 5G (128GB, 6GB) 6.5\" AMOLED, Snapdragon 865, IP68 Water Resistant, 5G Volte AT&T Unlocked (T-Mobile, Verizon, Sprint, Metro) G781U (Cloud Navy)",
+    "ratings": "0",
+    "images": [
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Samsung Galaxy S20 1.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Samsung Galaxy S20 2.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Samsung Galaxy S20 3.jpg"
+      },
+      {
+        "image": "http://127.0.0.1:8000/uploads/product/Samsung Galaxy S20 4.jpg"
+      }
+    ],
+    "category": "Mobile Phones",
+    "seller": "Sumsung",
+    "stock": 12,
+    "numOfReviews": 0,
+
+    "reviews": []
+  }
+]
