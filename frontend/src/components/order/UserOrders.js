@@ -36,11 +36,7 @@ export default function UserOrders() {
           field: "status",
           sort: "asc",
         },
-        {
-          label: "Actions",
-          field: "actions",
-          sort: "asc",
-        },
+        
       ],
       rows: [],
     };
@@ -57,11 +53,7 @@ export default function UserOrders() {
           ) : (
             <p style={{ color: "red" }}>{userOrder.orderStatus}</p>
           ),
-        actions: (
-          <Link to={`/order/${userOrder._id}`} className="btn btn-primary">
-            <i className="fa fa-eye"></i>{" "}
-          </Link>
-        ),
+        
       });
     });
 

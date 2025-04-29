@@ -25,7 +25,7 @@ const ShopProducts = () => {
     if (!window.confirm("Are you sure you want to delete this product?")) return;
 
     try {
-      await axios.delete(`/api/v1/product/${id}`, {
+      await axios.delete(`/api/v1/shop/product/${id}`, {
         withCredentials: true,
       });
       toast.success("Product deleted successfully");

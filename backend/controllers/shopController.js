@@ -250,7 +250,7 @@ exports.closeShop = catchAsyncError(async (req, res, next) => {
 // Get shop orders
 exports.getShopOrders = async (req, res) => {
   try {
-    const shopId = req.shop.shopId; 
+    const shopId = req.shop.Id; 
     
     if (!shopId) {
       return res.status(400).json({ success: false, message: "Shop ID not found in shop." });
