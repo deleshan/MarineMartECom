@@ -223,6 +223,18 @@ const shopSlice = createSlice({
       state.loading = false;
       state.error = action.payload;
     },
+    getShopOrdersRequest(state) {
+      state.loading = true;
+      state.error = null;
+    },
+    getShopOrdersSuccess(state, action) {
+      state.loading = false;
+      state.shopProducts = action.payload.orders;
+    },
+    getShopOrdersFail(state, action) {
+      state.loading = false;
+      state.error = action.payload;
+    },
   },
 });
 
@@ -242,7 +254,8 @@ export const {
   deleteShopRequest, deleteShopSuccess, deleteShopFail,
   clearShopStatus, clearShopError,getShopProductsRequest, 
   getShopProductsSuccess, getShopProductsFail, 
-  updateOrderStatusRequest, updateOrderStatusSuccess,updateOrderStatusFail
+  updateOrderStatusRequest, updateOrderStatusSuccess,updateOrderStatusFail,getShopOrdersRequest,
+  getShopOrdersSuccess,getShopOrdersFail
 } = shopSlice.actions;
 
 export default shopSlice.reducer;

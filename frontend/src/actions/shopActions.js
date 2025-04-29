@@ -42,7 +42,10 @@ import {
   getShopProductsFail,
   updateOrderStatusRequest, 
   updateOrderStatusSuccess,
-  updateOrderStatusFail
+  updateOrderStatusFail,
+  getShopOrdersRequest,
+  getShopOrdersSuccess,
+  getShopOrdersFail
   
 } from "../slices/shopSlice";
 
@@ -56,11 +59,12 @@ export const login = (email, password) => async (dispatch) => {
     dispatch(loginFail(error.response.data.message));
   }
 };
-
 // CLEAR ERRORS
 export const clearAuthError = (dispatch) => {
   dispatch(clearShopError());
 };
+
+
 
 // CREATE SHOP REQUEST
 export const createShop = (userData) => async (dispatch) => {
@@ -295,5 +299,18 @@ export const updateOrderStatus = (Id, newStatus) => async (dispatch) => {
   }
 };
 
+export const getShopOrders = () => async (dispatch) => {
+  try {
+    dispatch(getShopOrdersRequest());
+
+    const { data } = await axios.get(`/api/v1/shop/orders`, {
+      withCredentials: true,
+    });
+
+    dispatch(getShopOrdersSuccess(data));
+  } catch (error) {
+    dispatch(getShopOrdersFail(error.response?.data?.message || "Failed to load shop orders"));
+  }
+};
 
 
