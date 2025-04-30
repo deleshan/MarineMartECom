@@ -81,7 +81,7 @@ const ShopProfile = () => {
         </div>
 
         <div className="d-flex justify-content-between">
-          <Link to="/shop/updateprofile" className="btn btn-primary">
+          <Link to="/shop/shopdashboard/editprofile" className="btn btn-primary">
              Edit Profile
           </Link>
           <button onClick={handleCloseShop} className="btn btn-danger">
