@@ -54,6 +54,7 @@ import ProductForm from "./components/shop/ProductForm";
 import EditProduct from "./components/shop/EditProduct";
 import ShopProfile from "./components/shop/ShopProfile";
 import { loadShop } from "./actions/shopActions";
+import UpdateShopProfile from "./components/shop/UpdateShopProfile";
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("");
@@ -130,6 +131,7 @@ function App() {
             <Route path="/shop/shopdashboard/products/new" element={<ProtectedRoute isShopOwner={true}><ProductForm /></ProtectedRoute>} />
             <Route path="/shop/shopdashboard/products/edit/:id" element={<ProtectedRoute isShopOwner={true}><EditProduct /></ProtectedRoute>} />
             <Route path="/shop/shopdashboard/profile" element={<ProtectedRoute isShopOwner={true}><ShopProfile /></ProtectedRoute>} />
+            <Route path="/shop/shopdashboard/editprofile" element={<ProtectedRoute isShopOwner={true}><UpdateShopProfile /></ProtectedRoute>} />
             </Route>
             
             

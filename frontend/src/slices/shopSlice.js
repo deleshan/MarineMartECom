@@ -8,6 +8,8 @@ const shopSlice = createSlice({
     isShopAuthenticated: false,
     shops: [],
     shopProducts: [],
+    orders: [],
+    totalSales: 0,
     isCreated: false,
     isDeleted: false,
     isApproved: false,
@@ -229,7 +231,8 @@ const shopSlice = createSlice({
     },
     getShopOrdersSuccess(state, action) {
       state.loading = false;
-      state.shopProducts = action.payload.orders;
+      state.orders = action.payload.orders; 
+      state.totalSales = action.payload.totalSalesAmount;
     },
     getShopOrdersFail(state, action) {
       state.loading = false;
@@ -254,7 +257,7 @@ export const {
   deleteShopRequest, deleteShopSuccess, deleteShopFail,
   clearShopStatus, clearShopError,getShopProductsRequest, 
   getShopProductsSuccess, getShopProductsFail, 
-  updateOrderStatusRequest, updateOrderStatusSuccess,updateOrderStatusFail,getShopOrdersRequest,
+  updateOrderStatusRequest, updateOrderStatusSuccess,updateOrderStatusFail, getShopOrdersRequest,
   getShopOrdersSuccess,getShopOrdersFail
 } = shopSlice.actions;
 

@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
+
+
 const ShopOrders = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [updating, setUpdating] = useState(false); // for status update loading
+  const [updating, setUpdating] = useState(false); 
 
   const fetchShopOrders = async () => {
     try {
@@ -30,7 +32,7 @@ const ShopOrders = () => {
         { withCredentials: true }
       );
       toast.success(`Order marked as ${newStatus}`);
-      fetchShopOrders(); // refresh orders
+      fetchShopOrders(); 
     } catch (err) {
       toast.error(err.response?.data?.message || "Failed to update status");
     } finally {

@@ -230,27 +230,40 @@ exports.getApprovedShops = catchAsyncError(async (req, res, next) => {
   res.status(200).json({ success: true, shops });
 });
 
+
+
+
+
+
+
 // Shop owner closes shop
 exports.closeShop = catchAsyncError(async (req, res, next) => {
-  const shop = await Shop.findOne({ owner: req.user._id });
+  // Find the shop using the shopOwner role and the logged-in user's ID (req.shop._id)
+  const shop = await Shop.findOne( req.shop._id );
 
+  // If the shop doesn't exist, return an error
   if (!shop) {
     return next(new ErrorHandler("Shop not found", 404));
   }
 
-  shop.status = "closed";
-  await shop.save();
+  // Delete all products related to this shop
+  await Product.deleteMany({ shop: shop._id });
+
+  // Delete the shop itself
+  await Shop.findByIdAndDelete(shop._id);
 
   res.status(200).json({
     success: true,
-    message: "Shop closed successfully.",
+    message: "Shop and all its products deleted successfully.",
   });
 });
+
+
 
 // Get shop orders
 exports.getShopOrders = async (req, res) => {
   try {
-    const shopId = req.shop.Id; 
+    const shopId = req.shop._id; 
     
     if (!shopId) {
       return res.status(400).json({ success: false, message: "Shop ID not found in shop." });
@@ -274,7 +287,7 @@ exports.getShopOrders = async (req, res) => {
         }
       });
     });
-user
+
     res.status(200).json({
       success: true,
       orders: shopOrders,
